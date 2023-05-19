@@ -6,10 +6,12 @@ The purpose of this analysis is to generate a model that will be able to correct
 ##Process
 For this analysis, I generated and tested two models. 
 The first model was generated with original data. This dataset was highly imbalanced with a significant majority of 'healthy loans' (75,036) compared to 'high risk loans' (2,500). I split this model into Training and Test sets and generated a Logistic Regression model. I then generated confucion matrices and tested its accuracy, precision and recall for both the training and test sets.
+
 <img width="562" alt="Model 1 Confusion Matrix" src="https://github.com/NeonOstrich/Polling-and-Banking-Data-Analysis-in-Python/assets/119632669/0b26c071-f4cc-458a-8e57-e2da40950db4">
 <img width="601" alt="Model 1 Classification Report" src="https://github.com/NeonOstrich/Polling-and-Banking-Data-Analysis-in-Python/assets/119632669/066e34ad-5612-49a3-a3cc-da7f5665eafa">
 
 For the second model, I used resampled data instead of original data. This allowed me to have a dataset with an equal number of 'healthy loans' and 'high risk loans' with which to train my model. There were 56,271 of each type in the resampled dataset. I split this model into Training and Test sets and generated a Logistic Regression model. I then generated confucion matrices and tested its accuracy, precision and recall for both the training and test sets.
+
 <img width="583" alt="Model 2 Confusion Matrix" src="https://github.com/NeonOstrich/Polling-and-Banking-Data-Analysis-in-Python/assets/119632669/c3d1dbef-b84b-499c-8f77-10eb12bae809">
 <img width="617" alt="Model 2 Classification Report" src="https://github.com/NeonOstrich/Polling-and-Banking-Data-Analysis-in-Python/assets/119632669/3eb9bcc7-08e0-415c-b311-779d464c2169">
 
